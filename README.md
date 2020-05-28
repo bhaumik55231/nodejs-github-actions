@@ -1,3 +1,3 @@
 # nodejs-github-actions
 
-Playing with github actions
+Playing with GitHub actions

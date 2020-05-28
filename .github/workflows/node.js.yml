@@ -24,7 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm start
-    - run: npm run
+    - run: npm run generate-concepts
     - name: Commit changes
       uses: EndBug/add-and-commit@v4
       with:
