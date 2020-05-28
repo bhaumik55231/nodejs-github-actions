@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js &",
     "test": "curl http://localhost:3000/",
-    "start": "node index.js &"
+    "run": "curl http://localhost:3000/"
   },
   "repository": {
     "type": "git",
