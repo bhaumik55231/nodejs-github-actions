@@ -25,4 +25,11 @@ jobs:
     - run: npm install
     - run: npm start
     - run: npm test
-      timeout-minutes: 1
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v4
+      with:
+        author_username: bhaumik55231
+        author_email: bhaumik55231@gmail.com
+        message: "generating new file"
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
